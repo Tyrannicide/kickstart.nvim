@@ -2,4 +2,8 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
+
+--Go back to directory with <space>pv
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Explorer/directory' })
+
 return {}
