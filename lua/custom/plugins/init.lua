@@ -6,4 +6,10 @@
 --Go back to directory with <space>pv
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Explorer/directory' })
 
+-- Set tab to put in 4 spaces
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.expandtab = True
+
 return {}
