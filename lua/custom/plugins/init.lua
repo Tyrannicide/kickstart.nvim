@@ -12,4 +12,7 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.expandtab = True
 
+-- Set bash aliases for ! commands
+vim.env.BASH_ENV = '~/.bash_aliases'
+
 return {}

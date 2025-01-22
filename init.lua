@@ -632,7 +632,9 @@ require('lazy').setup({
         --
 
         --Add odin
-        ols = {},
+        ols = {
+          init_options = { enable_format = false },
+        },
 
         lua_ls = {
           -- cmd = { ... },
